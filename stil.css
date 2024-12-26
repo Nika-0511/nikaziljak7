@@ -9,7 +9,7 @@ h1{
 	letter-spacing: 4px;
 	text-align:center;
 }
-p{
+p:hover{
 	font-size:18px;
 	font-family:Times new roman;
 	font-style:normal;
@@ -46,6 +46,42 @@ object{
 	height:313px;
 	width:500px;
 	border: 3px solid white;
+}
+a:link {
+  color: green;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: yellow;
+} 
+input:focus {
+  background-color: pink;
+  width: 250px;
+}
+embed {
+  width: 150px;
+  height: 150px;
+  background: pink;
+  transition: width 2s, height 2s;
+}
+embed:hover {
+  width: 500px;
+  height: 400px;
+}
+video {
+  width: 150px;
+  height: 150px;
+  transition: width 2s, height 2s,transform 2s;
+}
+video:hover {
+  width: 500px;
+  height: 400px;
+  transform: rotate(360deg);
 }
 @media screen and (max-width: 500px) {
 img,object {
